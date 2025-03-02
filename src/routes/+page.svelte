@@ -8,7 +8,10 @@
     }
 
     function playall() {
-        themes.forEach((theme) => theme.play());
+        for (const theme of themes) {
+            console.log(`Playing ${theme._src} at ${new Date().getUTCMilliseconds()}`);
+            theme.play();
+        }
     }
 </script>
 
