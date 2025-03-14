@@ -12,8 +12,8 @@ export const shop = new Howl({
     preload: true,
 });
 
-export const tarot = new Howl({
-    src: ['tarot.mp3'],
+export const booster = new Howl({
+    src: ['booster.mp3'],
     html5: true,
     preload: true,
 });
